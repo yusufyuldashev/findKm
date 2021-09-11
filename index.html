@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fas{font-size:70px; }
+        .slog{font-size: 23px;}
+        .list{display: flex; justify-content: center;}
+        .list-item{
+            margin: 0 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body style="text-align:  center;">
+    <h1 class="header">Kim birinchi bo-rish-ga! </h1>
+     <form id="form" style="display: flex; justify-content: center;" >
+         <p class="header-slog" style="margin: 0  30px 0 0;">Masofa</p>
+         <input type="text" placeholder="type your km.." id="input">
+         <button type="submit" style="margin: 0 20px;">hisobla</button>
+     </form>
+     <select id="select" style="padding: 8px; margin: 10px 0 0 0;">
+         <option value="piyoda">piyoda</option>
+         <option value="moshina">moshina</option>
+         <option value="velosaped">velosaped</option>
+         <option value="samalyot">samalyot</option>
+
+     </select>
+     <ul class="list" style="list-style:none;">
+   <li class="list-item"> 
+       <i class="fas fa-male"></i>
+       <p class="slog">piyoda</p>
+       <p class="result1"></p>
+
+    </li>
+    <li class="list-item"> 
+        <i class="fas fa-car"></i>
+        <p class="slog">moshina</p>
+        <p class="result2"></p>
+ 
+     </li>
+     <li class="list-item"> 
+        <i class="fas fa-bicycle"></i>
+        <p class="slog">velosiped</p>
+        <p class="result3"></p>
+ 
+     </li>
+     <li class="list-item"> 
+        <i class="fas fa-plane"></i>
+        <p class="slog">samalyot</p>
+        <p class="result4"></p>
+ 
+     </li>
+     </ul>
+     <h1 class="lastResult"></h1>
+   
+
+    
+    <script src="./main.js"></script>
+</body>
+</html>
